@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.container-nav {
+  background-color: rgb(12, 6, 43);
+}
+
+.navbar > a:hover {
+  color: aliceblue;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 500;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.card-body > h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+#current {
+  display: flex;
+  align-items: center;
+  background-color: rgb(12, 6, 43);
+  color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 413px) {
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .navbar > form > input {
+    width: 180px;
+  }
+}
